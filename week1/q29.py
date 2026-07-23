@@ -6,4 +6,5 @@ def remove_duplicates(list):
     return result
 list = [4,5,6,7,4,8,9,5,0]
 print(remove_duplicates(list)) 
+# this is the program number 29
     
