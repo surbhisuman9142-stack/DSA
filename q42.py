@@ -1,14 +1,7 @@
-def running_max(nums):
-    result = []
-    maximum = nums[0]
-
-    for num in nums:
-        if num > maximum:
-            maximum = num
-        result.append(maximum)
-
-    return result
-
-nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
-
-print("Running Maximum:", running_max(nums))
+def total(nums):
+    s = 0
+    for i in range(len(nums)):
+        s += nums[i]
+    return s
+nums = [10, 20, 30, 40]
+print("Sum =", total(nums))
